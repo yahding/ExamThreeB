@@ -118,10 +118,25 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="Button1.text" xml:space="preserve">
-    <value>中文</value>
+    <value>更改</value>
+  </data>
+  <data name="lbChoose.Text" xml:space="preserve">
+    <value>请选择您的语言 :</value>
   </data>
   <data name="lbClass.text" xml:space="preserve">
     <value>软件设计与开发</value>
+  </data>
+  <data name="lbDate.text" xml:space="preserve">
+    <value>我打算在毕业：</value>
+  </data>
+  <data name="lbEarn.text" xml:space="preserve">
+    <value>当我毕业了，我希望能获得：</value>
+  </data>
+  <data name="lbGender.text" xml:space="preserve">
+    <value>我是 :</value>
+  </data>
+  <data name="lbName.text" xml:space="preserve">
+    <value>我的名字是 :</value>
   </data>
   <data name="lbWel.Text" xml:space="preserve">
     <value>欢迎来到6K：183</value>

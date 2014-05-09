@@ -1,0 +1,24 @@
+﻿body {
+}
+
+#wrap {
+    width: 1240px;
+    margin: 0 auto;
+    background: lightblue;
+}
+
+#header { background:lightblue; 
+          padding:5px 10px; text-align:center; }
+
+
+#leftdiv {width:40%;height:530px;
+          float:left; text-align:center; 
+          border:1px solid black;
+}
+
+#rightdiv {width:59%;height:530px;
+           float:left; padding-left:5px;text-align:left; 
+           border-top:1px solid black;
+           border-bottom:1px solid black;
+           border-right :1px solid black;
+}

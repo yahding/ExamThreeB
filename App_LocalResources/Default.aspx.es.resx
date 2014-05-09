@@ -118,10 +118,25 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="Button1.text" xml:space="preserve">
-    <value>Español</value>
+    <value>Cambio</value>
+  </data>
+  <data name="lbChoose.text" xml:space="preserve">
+    <value>Por favor, elegir el idioma :</value>
   </data>
   <data name="lbClass.text" xml:space="preserve">
     <value>Diseño y Desarrollo de software</value>
+  </data>
+  <data name="lbDate.text" xml:space="preserve">
+    <value>Tengo la intención de graduarse a :</value>
+  </data>
+  <data name="lbEarn.text" xml:space="preserve">
+    <value>Cuando me gradúe, espero ganar:</value>
+  </data>
+  <data name="lbGender.text" xml:space="preserve">
+    <value>Puedo ser :</value>
+  </data>
+  <data name="lbName.text" xml:space="preserve">
+    <value>Mi nombre es :</value>
   </data>
   <data name="lbWel.text" xml:space="preserve">
     <value>Bienvenido a 6k:183</value>

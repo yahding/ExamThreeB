@@ -118,10 +118,25 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="Button1.Text" xml:space="preserve">
-    <value>العربية</value>
+    <value>تغيير</value>
+  </data>
+  <data name="lbChoose.text" xml:space="preserve">
+    <value>من فضلك اختار لغتك :</value>
   </data>
   <data name="lbClass.text" xml:space="preserve">
     <value>تصميم البرمجيات والتنمية</value>
+  </data>
+  <data name="lbDate.text" xml:space="preserve">
+    <value>أخطط لتخريج على :</value>
+  </data>
+  <data name="lbEarn.text" xml:space="preserve">
+    <value>عند تخرجي، وآمل أن كسب :</value>
+  </data>
+  <data name="lbGender.text" xml:space="preserve">
+    <value>أكون :</value>
+  </data>
+  <data name="lbName.text" xml:space="preserve">
+    <value>اسمي :</value>
   </data>
   <data name="lbWel.Text" xml:space="preserve">
     <value>6K:183  مرحبا بكم في</value>
