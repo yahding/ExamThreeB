@@ -120,6 +120,12 @@
   <data name="Button1.Text" xml:space="preserve">
     <value>تغيير</value>
   </data>
+  <data name="female.text" xml:space="preserve">
+    <value>نبات مدقي</value>
+  </data>
+  <data name="hello.text" xml:space="preserve">
+    <value>مرحبا، {السيد أو السيدة}</value>
+  </data>
   <data name="lbChoose.text" xml:space="preserve">
     <value>من فضلك اختار لغتك :</value>
   </data>
@@ -140,5 +146,22 @@
   </data>
   <data name="lbWel.Text" xml:space="preserve">
     <value>6K:183  مرحبا بكم في</value>
+  </data>
+  <data name="male.text" xml:space="preserve">
+    <value>رجل</value>
+  </data>
+  <data name="pfour.text" xml:space="preserve">
+    <value>يرجى زيارة لي على</value>
+  </data>
+  <data name="pone.text" xml:space="preserve">
+    <value>آمل أن يكون لديك يوم عظيم عندما 
+هل تخرجت على</value>
+  </data>
+  <data name="pthree.text" xml:space="preserve">
+    <value>كما راتبا في وظيفتك الأولى!</value>
+  </data>
+  <data name="ptwo.text" xml:space="preserve">
+    <value>أتمنى لكم التوفيق في حياتك المهنية بعد 
+التخرج. آمل أن تكسب</value>
   </data>
 </root>

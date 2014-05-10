@@ -1,4 +1,4 @@
-﻿<%@ Page Language="VB" AutoEventWireup="false" CodeFile="Default.aspx.vb" Inherits="_Default" culture="auto:en-US" UICulture ="auto"%>
+﻿<%@ Page Language="VB" AutoEventWireup="false" CodeFile="Copy of Default.aspx.vb" Inherits="_Default" culture="auto:en-US" UICulture ="auto"%>
 
 <!DOCTYPE html>
 
@@ -41,21 +41,14 @@
      <div id="rightdiv">
         <br />
         <br />
-         <asp:Label ID="lbName" runat="server" Text="My name is :" meta:resourceKey="lbName"></asp:Label>
-         <asp:TextBox ID="tbName" runat="server"></asp:TextBox>
+         <asp:Label ID="hello" runat="server" Text="Hello," meta:resourceKey="hello"></asp:Label>
+         <asp:Label ID="lbshowname" runat="server" Text="Name" ></asp:Label>
          <br />
-         <asp:Label ID="lbGender" runat="server" Text="I am :" meta:resourceKey="lbGender"></asp:Label>
-         <input id="rdFemale" type="radio" />
-         <asp:Label ID="female" runat="server" meta:resourceKey="female"></asp:Label>
-&nbsp;
-         <input id="rdMale" type="radio" /><asp:Label ID="male" runat="server" meta:resourceKey="male"></asp:Label>
+
+
+
          <br />
-         <asp:Label ID="lbDate" runat="server" Text="I plan to graduate on:" meta:resourceKey="lbDate"></asp:Label>
-         <asp:Calendar ID="Calendar1" runat="server"></asp:Calendar>
-         
-         <br />
-         <asp:Label ID="lbEarn" runat="server" Text="When I graduate, I hope to earn:" meta:resourceKey="lbEarn"></asp:Label>
-         <asp:TextBox ID="tbSalary" runat="server"></asp:TextBox>
+         <asp:Label ID="lbSalary" runat="server" meta:resourceKey="Label1"></asp:Label>
      </div>
        
 

@@ -120,6 +120,12 @@
   <data name="Button1.text" xml:space="preserve">
     <value>Change</value>
   </data>
+  <data name="female.text" xml:space="preserve">
+    <value>Female</value>
+  </data>
+  <data name="hello.text" xml:space="preserve">
+    <value>Hello, {Mr. or Ms.}</value>
+  </data>
   <data name="lbChoose.Text" xml:space="preserve">
     <value>Please choose your language :</value>
   </data>
@@ -140,5 +146,22 @@
   </data>
   <data name="lbWel.Text" xml:space="preserve">
     <value>Welcome to 6k:183</value>
+  </data>
+  <data name="male.text" xml:space="preserve">
+    <value>Male</value>
+  </data>
+  <data name="pfour.text" xml:space="preserve">
+    <value>Pleave visit me on</value>
+  </data>
+  <data name="pone.text" xml:space="preserve">
+    <value>I hope you have a great day when
+you graduate on</value>
+  </data>
+  <data name="pthree.text" xml:space="preserve">
+    <value>as a salary in your first job!</value>
+  </data>
+  <data name="ptwo.text" xml:space="preserve">
+    <value>I wish you well in your career after
+graduation. I hope you earn</value>
   </data>
 </root>

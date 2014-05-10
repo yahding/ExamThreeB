@@ -120,6 +120,12 @@
   <data name="Button1.text" xml:space="preserve">
     <value>更改</value>
   </data>
+  <data name="female.text" xml:space="preserve">
+    <value>女</value>
+  </data>
+  <data name="hello.text" xml:space="preserve">
+    <value>您好，{先生或女士}</value>
+  </data>
   <data name="lbChoose.Text" xml:space="preserve">
     <value>请选择您的语言 :</value>
   </data>
@@ -140,5 +146,22 @@
   </data>
   <data name="lbWel.Text" xml:space="preserve">
     <value>欢迎来到6K：183</value>
+  </data>
+  <data name="male.text" xml:space="preserve">
+    <value>男</value>
+  </data>
+  <data name="pfour.text" xml:space="preserve">
+    <value>请访问我的</value>
+  </data>
+  <data name="pone.text" xml:space="preserve">
+    <value>我希望你有一个伟大的日子，当 
+你毕业在</value>
+  </data>
+  <data name="pthree.text" xml:space="preserve">
+    <value>在你的第一份工作的薪水！</value>
+  </data>
+  <data name="ptwo.text" xml:space="preserve">
+    <value>我祝愿你在你的职业生涯后， 
+毕业。我希望你赚</value>
   </data>
 </root>
