@@ -118,13 +118,16 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="Button1.Text" xml:space="preserve">
-    <value>تغيير</value>
+    <value>عرض</value>
+  </data>
+  <data name="f.text" xml:space="preserve">
+    <value>مللي</value>
   </data>
   <data name="female.text" xml:space="preserve">
     <value>نبات مدقي</value>
   </data>
   <data name="hello.text" xml:space="preserve">
-    <value>مرحبا، {السيد أو السيدة}</value>
+    <value>مرحبا</value>
   </data>
   <data name="lbChoose.text" xml:space="preserve">
     <value>من فضلك اختار لغتك :</value>
@@ -146,6 +149,9 @@
   </data>
   <data name="lbWel.Text" xml:space="preserve">
     <value>6K:183  مرحبا بكم في</value>
+  </data>
+  <data name="m.text" xml:space="preserve">
+    <value>السيد</value>
   </data>
   <data name="male.text" xml:space="preserve">
     <value>رجل</value>

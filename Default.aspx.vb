@@ -20,18 +20,43 @@ Partial Class _Default
 
         Protected Sub Page_Load(sender As Object, e As EventArgs) Handles Me.Load
 
-        If Not IsNumeric( tbSalary.Text) Then
-            MsgBox("Please enter a number in the text box")
+        response.Visible = False
+        first.Visible = True
 
-        Else
-            Dim tbMoney As Integer
-            tbMoney = tbSalary.Text
-            lbSalary.Text = String.Format("{0:c}", tbMoney)
-        End If
+
+
     End Sub
 
         
 
     
     
+    Protected Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+
+        If Not IsNumeric(tbSalary.Text) Then
+            MsgBox("Please enter a number as your expected salary after graduation")
+
+        Else
+            response.Visible = True
+            first.Visible = False
+
+            lbshowname.Text = tbName.Text
+
+            Dim tbMoney As Integer
+            tbMoney = tbSalary.Text
+            lbSalary.Text = String.Format("{0:c}", tbMoney)
+
+
+            If Radio1.Checked = True Then
+                f.Visible = True
+                m.Visible = False
+            ElseIf rdmale.Checked = True Then
+                f.Visible = False
+                m.Visible = True
+            End If
+
+            lbName.Text = tbName.Text
+            gradate.Text = Calendar1.SelectedDate.ToShortDateString()
+        End If
+    End Sub
 End Class

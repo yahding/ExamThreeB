@@ -117,14 +117,20 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="back.text" xml:space="preserve">
+    <value>Back</value>
+  </data>
   <data name="Button1.text" xml:space="preserve">
-    <value>Change</value>
+    <value>Submit</value>
+  </data>
+  <data name="f.text" xml:space="preserve">
+    <value>Ms</value>
   </data>
   <data name="female.text" xml:space="preserve">
     <value>Female</value>
   </data>
   <data name="hello.text" xml:space="preserve">
-    <value>Hello, {Mr. or Ms.}</value>
+    <value>Hello,</value>
   </data>
   <data name="lbChoose.Text" xml:space="preserve">
     <value>Please choose your language :</value>
@@ -146,6 +152,9 @@
   </data>
   <data name="lbWel.Text" xml:space="preserve">
     <value>Welcome to 6k:183</value>
+  </data>
+  <data name="m.text" xml:space="preserve">
+    <value>Mr</value>
   </data>
   <data name="male.text" xml:space="preserve">
     <value>Male</value>

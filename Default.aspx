@@ -27,28 +27,42 @@
         <br />
             <asp:Label ID="lbChoose" runat="server" Text="Please chose your language:" meta:resourceKey="lbChoose"></asp:Label>
         <br />
-        <asp:ListBox ID="Language1" runat="server" Width="168px">
-            <asp:ListItem Value="zh">Chinese</asp:ListItem>
-            <asp:ListItem Value="en-US">Englsih</asp:ListItem>
-            <asp:ListItem Value="es">Spanish</asp:ListItem>
-            <asp:ListItem Value="ar">Arabic</asp:ListItem>
-        </asp:ListBox>
-        <br />
-        <asp:Button ID="Button1" runat="server" Text="Change" meta:resourceKey="Button1" BackColor="<%$ Resources:Resource, Color %>" />
         
+            <asp:DropDownList ID="Language1" runat="server" Autopostback="true">
+                <asp:ListItem Value="ar">Arabic العربية</asp:ListItem>
+                <asp:ListItem Value="zh">Chinese 中文</asp:ListItem>
+                <asp:ListItem Value="en-US">English</asp:ListItem>
+                <asp:ListItem Value="es">Spanish Español</asp:ListItem>
+            </asp:DropDownList>
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            
+            <br />
+            <br />
+        <br />
+
+        
+            <br />
         
      </div>
      <div id="rightdiv">
+         <div id="first" runat="server">
         <br />
         <br />
          <asp:Label ID="lbName" runat="server" Text="My name is :" meta:resourceKey="lbName"></asp:Label>
          <asp:TextBox ID="tbName" runat="server"></asp:TextBox>
+             <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ErrorMessage="Please enter your Name" ControlToValidate="tbName"></asp:RequiredFieldValidator>
          <br />
          <asp:Label ID="lbGender" runat="server" Text="I am :" meta:resourceKey="lbGender"></asp:Label>
-         <input id="rdFemale" type="radio" />
+             <asp:RadioButton ID="Radio1" runat="server" GroupName ="Gender" />
          <asp:Label ID="female" runat="server" meta:resourceKey="female"></asp:Label>
 &nbsp;
-         <input id="rdMale" type="radio" /><asp:Label ID="male" runat="server" meta:resourceKey="male"></asp:Label>
+         <asp:RadioButton ID="rdmale" runat="server" GroupName="Gender" />
+             <asp:Label ID="male" runat="server" meta:resourceKey="male"></asp:Label>
          <br />
          <asp:Label ID="lbDate" runat="server" Text="I plan to graduate on:" meta:resourceKey="lbDate"></asp:Label>
          <asp:Calendar ID="Calendar1" runat="server"></asp:Calendar>
@@ -56,12 +70,49 @@
          <br />
          <asp:Label ID="lbEarn" runat="server" Text="When I graduate, I hope to earn:" meta:resourceKey="lbEarn"></asp:Label>
          <asp:TextBox ID="tbSalary" runat="server"></asp:TextBox>
-         <br />
-         <asp:Label ID="lbSalary" runat="server" meta:resourceKey="Label1"></asp:Label>
-     </div>
-       
+             <br />
+             <br />
+         <br />        
+             <asp:Button ID="Button1" runat="server" Text="Submit" meta:resourceKey="Button1" Width="111px"  />
 
-    </div>
+         </div>
+
+
+
+
+        <div id="response" runat="server">
+        <br />
+        <br />
+         <asp:Label ID="hello" runat="server" Text="Hello," meta:resourceKey="hello"></asp:Label>
+         &nbsp;<asp:Label ID="m" runat="server" Text="" meta:resourceKey="m"></asp:Label>
+            <asp:Label ID="f" runat="server" Text="" meta:resourceKey="f"></asp:Label>
+         <asp:Label ID="lbshowname" runat="server" Text="Name" ></asp:Label>
+         <br />
+         <br />
+         <asp:Label ID="pone" runat="server" Text="" meta:resourceKey="pone"></asp:Label>
+
+            <asp:Label ID="gradate" runat="server" Text=""></asp:Label> !
+
+         <br />
+         <br />
+
+         <asp:Label ID="ptwo" runat="server" Text="" meta:resourceKey="ptwo"></asp:Label>
+
+         &nbsp;<asp:Label ID="lbSalary" runat="server" meta:resourceKey="Label1"></asp:Label>
+     &nbsp;<asp:Label ID="pthree" runat="server" Text="" meta:resourceKey="pthree"></asp:Label>
+
+         <br />
+         <br />
+         <br />
+         <asp:Label ID="pfour" runat="server" Text="" meta:resourceKey="pfour"></asp:Label>
+
+         &nbsp; <a href="https://github.com/yahding/ExamThreeB">GitHub</a>!
+
+     </div>
+     </div>  
+
+    </div>  
+
     </form>
 </body>
 </html>

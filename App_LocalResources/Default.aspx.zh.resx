@@ -118,13 +118,16 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="Button1.text" xml:space="preserve">
-    <value>更改</value>
+    <value>提交</value>
+  </data>
+  <data name="f.text" xml:space="preserve">
+    <value>女士</value>
   </data>
   <data name="female.text" xml:space="preserve">
     <value>女</value>
   </data>
   <data name="hello.text" xml:space="preserve">
-    <value>您好，{先生或女士}</value>
+    <value>您好，</value>
   </data>
   <data name="lbChoose.Text" xml:space="preserve">
     <value>请选择您的语言 :</value>
@@ -146,6 +149,9 @@
   </data>
   <data name="lbWel.Text" xml:space="preserve">
     <value>欢迎来到6K：183</value>
+  </data>
+  <data name="m.text" xml:space="preserve">
+    <value>先生</value>
   </data>
   <data name="male.text" xml:space="preserve">
     <value>男</value>
