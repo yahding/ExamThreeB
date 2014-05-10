@@ -18,17 +18,6 @@ Partial Class _Default
         End Sub
 
 
-        Protected Sub Page_Load(sender As Object, e As EventArgs) Handles Me.Load
-
-        If Not IsNumeric( tbSalary.Text) Then
-            MsgBox("Please enter a number in the text box")
-
-        Else
-            Dim tbMoney As Integer
-            tbMoney = tbSalary.Text
-            lbSalary.Text = String.Format("{0:c}", tbMoney)
-        End If
-    End Sub
 
         
 

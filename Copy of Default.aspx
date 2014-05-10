@@ -44,12 +44,23 @@
          <asp:Label ID="hello" runat="server" Text="Hello," meta:resourceKey="hello"></asp:Label>
          <asp:Label ID="lbshowname" runat="server" Text="Name" ></asp:Label>
          <br />
-
-
+         <br />
+         <asp:Label ID="pone" runat="server" Text="" meta:resourceKey="pone"></asp:Label>
 
          <br />
-         <asp:Label ID="lbSalary" runat="server" meta:resourceKey="Label1"></asp:Label>
-     </div>
+         <br />
+
+         <asp:Label ID="ptwo" runat="server" Text="" meta:resourceKey="ptwo"></asp:Label>
+
+         &nbsp;<asp:Label ID="lbSalary" runat="server" meta:resourceKey="Label1"></asp:Label>
+     &nbsp;<asp:Label ID="pthree" runat="server" Text="" meta:resourceKey="pthree"></asp:Label>
+
+         <br />
+         <br />
+         <br />
+         <asp:Label ID="pfour" runat="server" Text="" meta:resourceKey="pfour"></asp:Label>
+
+         &nbsp; Github</div>
        
 
     </div>

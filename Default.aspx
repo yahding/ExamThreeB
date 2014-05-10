@@ -56,6 +56,8 @@
          <br />
          <asp:Label ID="lbEarn" runat="server" Text="When I graduate, I hope to earn:" meta:resourceKey="lbEarn"></asp:Label>
          <asp:TextBox ID="tbSalary" runat="server"></asp:TextBox>
+         <br />
+         <asp:Label ID="lbSalary" runat="server" meta:resourceKey="Label1"></asp:Label>
      </div>
        
 
